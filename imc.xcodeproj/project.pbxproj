@@ -57,14 +57,38 @@
 			isa = PBXGroup;
 			children = (
 				D71F82C626853CA1001AF788 /* AppDelegate.swift */,
-				D71F82C826853CA1001AF788 /* SceneDelegate.swift */,
-				D71F82CA26853CA1001AF788 /* ViewController.swift */,
-				D71F82CC26853CA1001AF788 /* Main.storyboard */,
+				D71F82DB26853CC3001AF788 /* Models */,
+				D71F82DA26853CB6001AF788 /* Views */,
+				D71F82DC26853CCD001AF788 /* Controller */,
 				D71F82CF26853CA7001AF788 /* Assets.xcassets */,
+				D71F82C826853CA1001AF788 /* SceneDelegate.swift */,
 				D71F82D126853CA7001AF788 /* LaunchScreen.storyboard */,
 				D71F82D426853CA7001AF788 /* Info.plist */,
 			);
 			path = imc;
+			sourceTree = "<group>";
+		};
+		D71F82DA26853CB6001AF788 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D71F82CC26853CA1001AF788 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D71F82DB26853CC3001AF788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D71F82DC26853CCD001AF788 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D71F82CA26853CA1001AF788 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
